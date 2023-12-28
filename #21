@@ -1,7 +1,12 @@
 function inverse(side)
-    if side == Nord return Sud
-    elseif side == Sud return Nord
-    else return side == West ? Ost : West
+    if side == Nord 
+        return Sud
+    elseif side == Sud 
+        return Nord
+    elseif side == West
+        return Ost
+    else
+        return West 
     end
 end
 
